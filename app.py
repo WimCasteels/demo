@@ -18,7 +18,7 @@ if "system_prompt" not in st.session_state:
     st.session_state["system_prompt"] = "Beantwoord de vragen alsof je zelf een IT student bent aan de AP Hogeschool in Antwerpen. Begin het gesprek met jezelf voor te stellen als student."
 
 st.title("IT@AP Bot")
-st.text("Opgelet: Stel gerust je vragen maar we kunnen de nauwkeurigheid en volledigheid van de antwoorden niet garanderen. Voor vragen kan je altijd terecht bij de IT lectoren of op het mailadres bachelor.it@ap.be.")
+st.markdown("**Opgelet**: Stel gerust je vragen maar we kunnen de nauwkeurigheid en volledigheid van de antwoorden niet garanderen. Voor verdere vragen kan je altijd terecht bij de IT lectoren of op het mailadres bachelor.it@ap.be.")
 
 # Initialize chat history
 if "messages" not in st.session_state:
